@@ -16,4 +16,12 @@ This project is a minimal Go server that handles basic HTTP requests. It is a gr
 1. Clone the repository:
    ```bash
    git clone https://github.com/JaswantSingh41/simple-go-server.git
-   
+2. Install dependencies:
+If your project uses external dependencies (e.g., Gin or other packages), run the following command to install them:
+   ```bash
+   go get .
+
+3. Run the server:
+    ```bash
+    go run .
+4. Open your browser and visit http://localhost:8080.
